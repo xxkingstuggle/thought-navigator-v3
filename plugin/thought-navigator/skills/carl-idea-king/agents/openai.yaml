@@ -1,0 +1,6 @@
+interface:
+  display_name: "方案审查"
+  short_description: "使用方案审查方法处理对应问题，沿用当前对话信息并按需要继续追问"
+  default_prompt: "使用 $thought-navigator:carl-idea-king，帮我处理下面的问题。"
+policy:
+  allow_implicit_invocation: false

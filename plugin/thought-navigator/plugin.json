@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "thought-navigator",
+  "version": "3.0.0",
+  "description": "思路导航：主动调用后，按问题决定是否使用思考方法。",
+  "author": {
+    "name": "个人技能整合（基于 LearnPrompt/laoyeye）"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "思路导航",
+        "shortDescription": "主动调用，按需使用思考方法",
+        "longDescription": "主动调用思路导航并描述问题。模型按目标决定是否使用、组合或切换思考方法。保留基于 LearnPrompt/laoyeye 整合的 25 个方法入口及来源。",
+        "developerName": "个人技能整合",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "使用 $thought-navigator:thought-navigator，帮我选一个合适的方法处理这个问题。"
+        ]
+      }
+    }
+  }
+}

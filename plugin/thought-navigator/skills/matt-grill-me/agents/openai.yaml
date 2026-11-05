@@ -1,0 +1,6 @@
+interface:
+  display_name: "深问入口"
+  short_description: "使用深问入口方法处理对应问题，沿用当前对话信息并按需要继续追问"
+  default_prompt: "使用 $thought-navigator:matt-grill-me，帮我处理下面的问题。"
+policy:
+  allow_implicit_invocation: false

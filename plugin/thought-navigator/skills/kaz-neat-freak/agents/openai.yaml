@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目知识收尾"
+  short_description: "使用项目知识收尾方法处理对应问题，沿用当前对话信息并按需要继续追问"
+  default_prompt: "使用 $thought-navigator:kaz-neat-freak，帮我处理下面的问题。"
+policy:
+  allow_implicit_invocation: false

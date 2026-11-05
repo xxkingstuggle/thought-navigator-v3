@@ -1,0 +1,6 @@
+interface:
+  display_name: "思路导航"
+  short_description: "主动调用后，按问题决定是否使用思考方法"
+  default_prompt: "使用 $thought-navigator:thought-navigator，帮我处理下面的问题。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,224 @@
+{
+  "repository": "https://github.com/LearnPrompt/laoyeye",
+  "commit": "5af2b57ceb169d81b2da90cc902556a2cad11c0a",
+  "changes": [
+    "Chinese display names; laoyeye entry renamed to thought-navigator",
+    "Flattened skills for Codex plugin discovery",
+    "Replaced Skill-tool calls outside prompt blocks with relative file loading",
+    "Converted invocation controls to agents/openai.yaml; router allows plugin-selected discovery",
+    "Preserved all fenced prompt blocks and supporting resources",
+    "Moved legacy compatibility and argument-hint frontmatter into supported metadata",
+    "Integrated the existing hv-analysis full research/PDF workflow as a reference before removing duplicate plugin",
+    "Used host-verified namespaced skill invocations in prompts"
+  ],
+  "skills": [
+    {
+      "name": "johari-window",
+      "display_name": "乔哈里视窗",
+      "upstream_path": "skills/asking/johari-window/SKILL.md",
+      "upstream_sha256": "d7baa53c738f5e278d963d6462741de44c6df55d7f9ef53ebb2b97f76c00e4a6",
+      "installed_sha256": "d7baa53c738f5e278d963d6462741de44c6df55d7f9ef53ebb2b97f76c00e4a6",
+      "explicit_only": false
+    },
+    {
+      "name": "matt-grill-me",
+      "display_name": "深问入口",
+      "upstream_path": "skills/asking/matt-grill-me/SKILL.md",
+      "upstream_sha256": "944dad757d1b21871a93ead936352c83981376d4ac114be551830fe8ed69c85e",
+      "installed_sha256": "2fe147392418c7cdef04ec36d9de9c99cba5dbd3fc243db721e2d5eb46320f23",
+      "explicit_only": true
+    },
+    {
+      "name": "matt-grilling",
+      "display_name": "方案深问",
+      "upstream_path": "skills/asking/matt-grilling/SKILL.md",
+      "upstream_sha256": "2b7c28c1ae985fda2bc9157c1a00b57efab7046eec7b5f76ba277991403ed1b3",
+      "installed_sha256": "2b7c28c1ae985fda2bc9157c1a00b57efab7046eec7b5f76ba277991403ed1b3",
+      "explicit_only": false
+    },
+    {
+      "name": "no-fluff-output",
+      "display_name": "直给输出",
+      "upstream_path": "skills/asking/no-fluff-output/SKILL.md",
+      "upstream_sha256": "73fe31215451ffed98ab3e84b5fd5e3f8be09b6bcb87645d5a8840fcf0d27c6d",
+      "installed_sha256": "73fe31215451ffed98ab3e84b5fd5e3f8be09b6bcb87645d5a8840fcf0d27c6d",
+      "explicit_only": false
+    },
+    {
+      "name": "socratic-inquiry",
+      "display_name": "苏格拉底式提问",
+      "upstream_path": "skills/asking/socratic-inquiry/SKILL.md",
+      "upstream_sha256": "8bc7daa7831d9d84598e56533c853f4a3e2dbb87e360c34d6bd32ae91a624f85",
+      "installed_sha256": "e3397df1913347f279de0f2442a470c4c35b34a87f8cdd3a92c1561b4a1fae32",
+      "explicit_only": false
+    },
+    {
+      "name": "minimum-experiment",
+      "display_name": "最小实验",
+      "upstream_path": "skills/deciding/minimum-experiment/SKILL.md",
+      "upstream_sha256": "549981b00c7aa518dc157724cdfa37dd3532f6c7e30d714850f26ea6d7bce6aa",
+      "installed_sha256": "e22942e8a5c4fb1f7dd487aa34cfcf3d698667f29c7a0c64631c8804b50da530",
+      "explicit_only": false
+    },
+    {
+      "name": "steelman-both-sides",
+      "display_name": "双向钢人论证",
+      "upstream_path": "skills/deciding/steelman-both-sides/SKILL.md",
+      "upstream_sha256": "75e65a3dc9c5aea74acc55f20450e401c49cfeeb3af1eba41661d5c0b9d5264f",
+      "installed_sha256": "41a570bf35b62881be85930e457974d1d20f3b9f19bbbfb3074732a736f09339",
+      "explicit_only": false
+    },
+    {
+      "name": "kaz-leader",
+      "display_name": "Agent任务书",
+      "upstream_path": "skills/doing/kaz-leader/SKILL.md",
+      "upstream_sha256": "913eb1271295424a6c255dd2f0eaaa5512ad690dc3da40f42fa2fc05b16b5ae3",
+      "installed_sha256": "913eb1271295424a6c255dd2f0eaaa5512ad690dc3da40f42fa2fc05b16b5ae3",
+      "explicit_only": false
+    },
+    {
+      "name": "kaz-neat-freak",
+      "display_name": "项目知识收尾",
+      "upstream_path": "skills/doing/kaz-neat-freak/SKILL.md",
+      "upstream_sha256": "1006fbb2dd86548a9bd188fde51b04f2003cd611ad58827c3677c0fee05e9192",
+      "installed_sha256": "37219956c7d9a5b02f5c8d93c0af8cb1bb1c8ad4d4e7eee5eda457c6fcdf0482",
+      "explicit_only": false
+    },
+    {
+      "name": "thought-navigator",
+      "display_name": "思路导航",
+      "upstream_path": "skills/laoyeye/SKILL.md",
+      "upstream_sha256": "717f1b061c1e0d02bee888f42bd03a18ed0f19e1c6d268ee1bbcb0f9d6ffad9f",
+      "installed_sha256": "5dd2984b29035db7b5738fd48698abd82a8885b4f6da2e1b57a69475f4b705e1",
+      "explicit_only": false
+    },
+    {
+      "name": "eli5",
+      "display_name": "大图小字",
+      "upstream_path": "skills/learning/eli5/SKILL.md",
+      "upstream_sha256": "fdff76934772877a568cbb58050f78ec18be38390e8bb02901a8223d6d42ca10",
+      "installed_sha256": "7a3780f2008854937c3c71f558390130e405940768f44561abc57cdd5673ed7b",
+      "explicit_only": false
+    },
+    {
+      "name": "fact-check",
+      "display_name": "事实核查",
+      "upstream_path": "skills/learning/fact-check/SKILL.md",
+      "upstream_sha256": "8f8879399712f7a8b9cc13bd1617bf7a37acd1b8e79b8b7e41664b8d174e1da4",
+      "installed_sha256": "c93503474e15e30f85bf0563e5de0827e88eac0ca43f4c0eb18add3a15253653",
+      "explicit_only": false
+    },
+    {
+      "name": "horizontal-vertical-analysis",
+      "display_name": "横纵分析",
+      "upstream_path": "skills/learning/horizontal-vertical-analysis/SKILL.md",
+      "upstream_sha256": "03819c6fbcbb3536a98aadca529c0cf73e6f29aa879861daf7c590ff01644b5a",
+      "installed_sha256": "5b30d278ecaf0103f99af2c01e51297ab48f1f01280cd286faf8d45be59271ac",
+      "explicit_only": false
+    },
+    {
+      "name": "matt-teach",
+      "display_name": "私人课堂",
+      "upstream_path": "skills/learning/matt-teach/SKILL.md",
+      "upstream_sha256": "08811519c74543e9041dc43cb776c6f331af3d27859e7097a022c7a1cf4fc66f",
+      "installed_sha256": "1edd8ec614d883c91e52158364e6cb35d08b061fb418a26fccac97bbf92b0182",
+      "explicit_only": true
+    },
+    {
+      "name": "memory-parable",
+      "display_name": "记忆寓言",
+      "upstream_path": "skills/learning/memory-parable/SKILL.md",
+      "upstream_sha256": "7b05a8b18ccdad819350e600e5dcac3cc400063b396175ec3465462ed147749d",
+      "installed_sha256": "881f79597cf284d73abd5fb4382b66a426c53223904ad9b2ddf631060564b7f2",
+      "explicit_only": false
+    },
+    {
+      "name": "parable",
+      "display_name": "寓言解释",
+      "upstream_path": "skills/learning/parable/SKILL.md",
+      "upstream_sha256": "4e0aa1ce8dd70a2bfaf3a53640b89c14b568a00e6cb94d6273dc6f2c8ac896ba",
+      "installed_sha256": "e94fc8a7ac649bddb5496f5a5eeb8af9b802454e283118bb0dbf60042cc5124e",
+      "explicit_only": false
+    },
+    {
+      "name": "reverse-teardown",
+      "display_name": "反向拆解",
+      "upstream_path": "skills/learning/reverse-teardown/SKILL.md",
+      "upstream_sha256": "71b2cf86d216515217a0f13daaac71fbf8b0ba8d10ff3ac7e6b954d9396c702c",
+      "installed_sha256": "ef51db1e02cb8bb255551e50d02357d86e830211fb3c8a1d5b80cca53c46cb34",
+      "explicit_only": false
+    },
+    {
+      "name": "two-layer-explain",
+      "display_name": "双层解释",
+      "upstream_path": "skills/learning/two-layer-explain/SKILL.md",
+      "upstream_sha256": "a84272890968458b9a6bdeb708dbe163cc9f808a9a7fbbd457e39f47c78d326a",
+      "installed_sha256": "0dca228af2422bb9e177fcb3f238535620014ea5f6ed17f098c6889e960fcb55",
+      "explicit_only": false
+    },
+    {
+      "name": "hidden-talent",
+      "display_name": "隐藏天赋",
+      "upstream_path": "skills/self-knowledge/hidden-talent/SKILL.md",
+      "upstream_sha256": "eb450c708c58d470e8f3e3a50e9bda7affe6cac9a557eef96f84e922b5acf4f5",
+      "installed_sha256": "7d9eaa2fea6c5a2a258ea019475d55ee9e1df071f96777c6330c747156c8a2ff",
+      "explicit_only": true
+    },
+    {
+      "name": "life-design",
+      "display_name": "人生设计",
+      "upstream_path": "skills/self-knowledge/life-design/SKILL.md",
+      "upstream_sha256": "68cefe9f0715d8629e7340da2994b3f2095b33b415f92b17f069f571266ecff9",
+      "installed_sha256": "5654cc6db318fbdae15f90f0d8050aac021fbb61366bc36f3c142fbb3c52e711",
+      "explicit_only": true
+    },
+    {
+      "name": "carl-idea-king",
+      "display_name": "方案审查",
+      "upstream_path": "skills/solving/carl-idea-king/SKILL.md",
+      "upstream_sha256": "6601c9099b25ba610f20f740b952cb8e845e49a63dd4ac82414d13b2828c206d",
+      "installed_sha256": "7d0297d26db699d1fe510ce51ac50d31d9a178714eeaf0a01e0259b6721b3a86",
+      "explicit_only": false
+    },
+    {
+      "name": "cross-domain-borrow",
+      "display_name": "跨领域借解",
+      "upstream_path": "skills/solving/cross-domain-borrow/SKILL.md",
+      "upstream_sha256": "e3c665235aed9c2fbdf561247f69fe84776cfd3c049ce17960f9cc2a762245d5",
+      "installed_sha256": "647f55a1dc77c5ba3849367e27bdc8314f38f0938ba1c6709a45128849d8f6d6",
+      "explicit_only": false
+    },
+    {
+      "name": "expert-panel",
+      "display_name": "专家会诊",
+      "upstream_path": "skills/solving/expert-panel/SKILL.md",
+      "upstream_sha256": "9c8e0951fc5f60f5bfc6bf9990c6ec263b422915c935fa6c97bf4870026e0990",
+      "installed_sha256": "d3b3a1226e573ca233029bcc5ac7ccd5b86ca90e8862b673e701308236afb4c9",
+      "explicit_only": false
+    },
+    {
+      "name": "first-principles",
+      "display_name": "第一性原理",
+      "upstream_path": "skills/solving/first-principles/SKILL.md",
+      "upstream_sha256": "8242ed24946a61fa2d344ed1e8235590303bd97200557081485f31447892a9cd",
+      "installed_sha256": "0a64465e4731377cd8cada08b57c738b4efa2afc85a4f9012b396032e2180d4a",
+      "explicit_only": false
+    },
+    {
+      "name": "inversion",
+      "display_name": "逆向排雷",
+      "upstream_path": "skills/solving/inversion/SKILL.md",
+      "upstream_sha256": "7d71001855c3452abe1954e03c4c167027d49e8e4cc992d3db02601ef88e9764",
+      "installed_sha256": "779143b4fb908c5c924629b7869643041a66c2db858bd50d5b429e27ca5daf92",
+      "explicit_only": false
+    },
+    {
+      "name": "matt-diagnosing-bugs",
+      "display_name": "故障诊断",
+      "upstream_path": "skills/solving/matt-diagnosing-bugs/SKILL.md",
+      "upstream_sha256": "9363a762cbbab14fe76ef95b78fad657135f6a91170a36f2ff00aaf6f96772b2",
+      "installed_sha256": "9363a762cbbab14fe76ef95b78fad657135f6a91170a36f2ff00aaf6f96772b2",
+      "explicit_only": false
+    }
+  ]
+}

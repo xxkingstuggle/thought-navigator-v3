@@ -1,7 +1,22 @@
-思路导航是 LearnPrompt/laoyeye 的个人 Codex 插件改编版。
-来源：https://github.com/LearnPrompt/laoyeye/tree/5af2b57ceb169d81b2da90cc902556a2cad11c0a
+思路导航 V3 / Thought Navigator V3
+第三方来源与许可说明
 
-仓库代码与文档沿用原 MIT 许可。提示语原文著作权归原作者；收录提示语及第三方材料沿用各自的许可和署名。
-作者与出处见上游 README：https://github.com/LearnPrompt/laoyeye/blob/5af2b57ceb169d81b2da90cc902556a2cad11c0a/README.md
-数字生命卡兹克、Matt Pocock、LearnPrompt、陈乔维Justin、ayghri、苏乐等贡献者的归属沿用上游记录。
-第三方许可见 docs/licenses/。中文名称与 Codex 调用适配不是原作者的官方发行。
+本项目是 LearnPrompt/laoyeye 的非官方 Codex 插件改编版。
+上游仓库：https://github.com/LearnPrompt/laoyeye
+改编所基于的提交：https://github.com/LearnPrompt/laoyeye/tree/5af2b57ceb169d81b2da90cc902556a2cad11c0a
+
+仓库所沿用的 MIT 许可保留原版权声明：Copyright (c) 2026 LearnPrompt。
+该许可适用于原项目有权以 MIT 授权的代码与文档；收录的第三方 Skill、
+提示语原文和引用材料不因本项目重新分发而改变著作权归属或原许可条件。
+
+提示语原文的著作权属于各自原作者。上游记录的作者/贡献者包括
+数字生命卡兹克、Matt Pocock、LearnPrompt、陈乔维 Justin、ayghri、苏乐等。
+部分传播中的提示语无可确认署名；不在本改编版本中擅自声称原创。
+
+具体来源、上游文件路径及改编记录：
+- 上游署名：https://github.com/LearnPrompt/laoyeye/blob/5af2b57ceb169d81b2da90cc902556a2cad11c0a/README.md
+- 本包来源追踪：docs/provenance.json
+- 本包保留的第三方许可：docs/licenses/
+
+本包将相关 Skill 适配到 Codex 的插件目录与调用方式，并使用中文显示名。
+这些改动不代表原作者发布或认可本版本。

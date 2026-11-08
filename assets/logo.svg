@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">思路导航</title>
+  <desc id="desc">由交汇的路径和指向目标的菱形组成的导航图标</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17253f"/>
+      <stop offset="100%" stop-color="#0c1327"/>
+    </linearGradient>
+    <linearGradient id="route" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#54d2ce"/>
+      <stop offset="100%" stop-color="#8db4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="36" fill="url(#bg)"/>
+  <circle cx="80" cy="80" r="54" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2"/>
+  <path d="M39 107 C53 107 52 67 76 67 S100 107 121 107" fill="none" stroke="url(#route)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M39 107 L54 107 M121 107 L106 107" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-opacity=".8"/>
+  <path d="M80 28 L100 48 L80 68 L60 48 Z" fill="#eef6ff"/>
+  <path d="M80 38 L90 48 L80 58 L70 48 Z" fill="#3f769a"/>
+  <circle cx="80" cy="80" r="5" fill="#e3f6ff"/>
+</svg>

@@ -2,7 +2,7 @@
   <img src="assets/logo.svg" width="96" alt="思路导航图标">
 </p>
 
-<h1 align="center">思路导航 V3 · Thought Navigator</h1>
+<h1 align="center">思路导航 · Thought Navigator</h1>
 
 <p align="center"><strong>你只管提出问题，让 AI 决定怎么思考。</strong></p>
 
@@ -86,13 +86,8 @@ $thought-navigator:thought-navigator
 - **不是独立模型或 Agent**：它提供方法和选择依据，不承诺提高每次回答的质量，也不自行获得联网、文件修改或委派权限。
 - **长流程需要用户意愿**：涉及多轮盘问、教学或长期协作时，不默认要求用户进入完整流程。
 
-## 来源、版权与许可
+## 项目实现与引用说明
 
-本项目是 [LearnPrompt/laoyeye](https://github.com/LearnPrompt/laoyeye) 的**非官方 Codex 插件改编版**，保留了原项目收录的方法与提示语材料，并对入口、目录和插件调用方式做了适配。
+**我负责的部分：** 面向 Codex 的 Skill 路由入口、选择机制、插件结构、调用边界和项目维护。它要解决的是用户不必先学习方法名称，也能让模型按任务判断是否需要调用 Skill。
 
-- [LICENSE](LICENSE)：仓库沿用的 MIT 许可文本。
-- [NOTICE](plugin/thought-navigator/NOTICE)：原项目、作者归属和第三方材料说明。
-- [来源记录](plugin/thought-navigator/docs/provenance.json)：改编所基于的上游提交与 Skill 对应关系。
-- [第三方许可](plugin/thought-navigator/docs/licenses)：随包保留的第三方许可文本。
-
-提示语原文及第三方 Skill 的权利归各自作者；请以对应来源和许可为准。思路导航 V3 不是上述原作者的官方发行。
+**收录的方法：** 部分方法与提示语材料来自 [LearnPrompt/laoyeye](https://github.com/LearnPrompt/laoyeye) 及其他作者。为了让原作者和第三方材料得到正确署名，仓库保留 [LICENSE](LICENSE)、[NOTICE](plugin/thought-navigator/NOTICE) 与来源记录；这些不影响我对自己新增设计和实现的贡献说明。

@@ -1,0 +1,22 @@
+{
+  "name": "agy",
+  "version": "0.1.4",
+  "description": "本机 AGY 外部协作，实时额度选模、有限恢复、Codex 验收。",
+  "author": {
+    "name": "Personal local integration"
+  },
+  "skills": "./skills/",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "Agy",
+    "shortDescription": "AGY 独立执行，由 Codex 验收",
+    "longDescription": "个人本地集成。复用本机 Worker 引擎，仅调用 AGY CLI。非 Google 官方插件。",
+    "developerName": "Personal local integration",
+    "category": "Productivity",
+    "logo": "./assets/google-g.png",
+    "composerIcon": "./assets/google-g.png",
+    "defaultPrompt": [
+      "使用 $agy:agy 完成当前任务，完成后验收实际结果。"
+    ]
+  }
+}

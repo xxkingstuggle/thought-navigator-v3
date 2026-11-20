@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agy"
+  short_description: "AGY 独立执行、实时额度选模与有限恢复，由 Codex 验收"
+  default_prompt: "使用 $agy:agy 独立完成当前任务，完成后检查真实结果。"
+policy:
+  allow_implicit_invocation: false
